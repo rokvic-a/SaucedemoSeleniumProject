@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f3958c2-9a26-46f6-9e9e-d6faf11ce632" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/FooterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SidebarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/AddProductsToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/CheckoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/FooterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/HamburgerMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/RemoveProductsFromCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/SortingFilterTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hxU6DZv4tpdXXtU0YZW1ZtpfJB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AddProductsToCartTest.addMoreProductsToCart.executor": "Run",
+    "TestNG.AddProductsToCartTest.addProductInCart.executor": "Run",
+    "TestNG.AddProductsToCartTest.addProductToCart.executor": "Run",
+    "TestNG.AddProductsToCartTest.executor": "Run",
+    "TestNG.AddProductsToCartTest.userCanAddMoreProductsToCart.executor": "Run",
+    "TestNG.AddProductsToCartTest.userCanAddProductToCart.executor": "Run",
+    "TestNG.CheckoutTest.cancelShopping.executor": "Run",
+    "TestNG.CheckoutTest.checkoutWithAddedItems.executor": "Run",
+    "TestNG.CheckoutTest.checkoutWithoutAnyItems.executor": "Run",
+    "TestNG.CheckoutTest.executor": "Run",
+    "TestNG.CheckoutTest.userCanCancelShopping.executor": "Run",
+    "TestNG.CheckoutTest.userCanCheckoutWithAddedItems.executor": "Run",
+    "TestNG.CheckoutTest.userCantCheckoutWithoutFirstNameField.executor": "Run",
+    "TestNG.CheckoutTest.userCantCheckoutWithoutLastNameField.executor": "Run",
+    "TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField.executor": "Run",
+    "TestNG.FooterTest.executor": "Run",
+    "TestNG.FooterTest.facebookIcontest.executor": "Run",
+    "TestNG.FooterTest.linkedinIconTest.executor": "Run",
+    "TestNG.FooterTest.twitterIconTest.executor": "Run",
+    "TestNG.HamburgerMenuTest.userCanClickOnAboutButton.executor": "Run",
+    "TestNG.HamburgerMenuTest.userCanGoToAllItemsPage.executor": "Run",
+    "TestNG.HamburgerMenuTest.userCanResetAppState.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.successfulLogIn.executor": "Run",
+    "TestNG.LoginTest.successfulLogInWithValidCredentials.executor": "Run",
+    "TestNG.LoginTest.unsuccessfulLogInEmptyFields.executor": "Run",
+    "TestNG.LoginTest.unsuccessfulLogInWithInvalidUsername.executor": "Run",
+    "TestNG.LoginTest.userCanSuccessfullyLogInWithValidCredentials.executor": "Run",
+    "TestNG.LogoutTest.successfulLogOut.executor": "Run",
+    "TestNG.RemoveProductsFromCartTest.removeProductFromCart.executor": "Run",
+    "TestNG.SortingFilterTest.userCanSortItemsAToZ.executor": "Run",
+    "TestNG.SortingFilterTest.userCanSortItemsPriceHighToLow.executor": "Run",
+    "TestNG.SortingFilterTest.userCanSortItemsPriceLowToHigh.executor": "Run",
+    "TestNG.SortingFilterTest.userCanSortItemsZToA.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField">
+    <configuration name="CheckoutTest.userCanCheckoutWithAddedItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalSeleniumProjectSaucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CheckoutTest" />
+      <option name="METHOD_NAME" value="userCanCheckoutWithAddedItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest.userCantCheckoutWithoutFirstNameField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalSeleniumProjectSaucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CheckoutTest" />
+      <option name="METHOD_NAME" value="userCantCheckoutWithoutFirstNameField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest.userCantCheckoutWithoutLastNameField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalSeleniumProjectSaucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CheckoutTest" />
+      <option name="METHOD_NAME" value="userCantCheckoutWithoutLastNameField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutTest.userCantCheckoutWithoutPostalCodeField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalSeleniumProjectSaucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CheckoutTest" />
+      <option name="METHOD_NAME" value="userCantCheckoutWithoutPostalCodeField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamburgerMenuTest.userCanResetAppState" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalSeleniumProjectSaucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.HamburgerMenuTest" />
+      <option name="METHOD_NAME" value="userCanResetAppState" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField" />
+        <item itemvalue="TestNG.CheckoutTest.userCantCheckoutWithoutLastNameField" />
+        <item itemvalue="TestNG.CheckoutTest.userCantCheckoutWithoutFirstNameField" />
+        <item itemvalue="TestNG.HamburgerMenuTest.userCanResetAppState" />
+        <item itemvalue="TestNG.CheckoutTest.userCanCheckoutWithAddedItems" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f3958c2-9a26-46f6-9e9e-d6faf11ce632" name="Changes" comment="" />
+      <created>1718535045913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718535045913</updated>
+    </task>
+    <servers />
+  </component>
+</project>
