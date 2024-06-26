@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
         driver.get("https://www.saucedemo.com/");
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCanSuccessfullyLogInWithValidCredentials() {
         userLogin("standard_user", "secret_sauce");
 
@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(sidebarPage.getTitleText(), "Swag Labs");
     }
 
-    @Test
+    @Test(priority = 20)
     public void unsuccessfulLogInWithInvalidUsername() {
         userLogin("invalidusername", "secret_sauce");
 
@@ -30,7 +30,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getErrorText(), "Epic sadface: Username and password do not match any user in this service");
     }
 
-    @Test
+    @Test(priority = 30)
     public void unsuccessfulLogInWithInvalidPassword() {
         userLogin("standard_user", "invalidpassword");
 
@@ -38,7 +38,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getErrorText(), "Epic sadface: Username and password do not match any user in this service");
     }
 
-    @Test
+    @Test(priority = 40)
     public void unsuccessfulLogInEmptyFields() {
         userLogin("", "");
 

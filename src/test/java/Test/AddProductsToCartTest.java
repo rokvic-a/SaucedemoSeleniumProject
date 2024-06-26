@@ -14,7 +14,7 @@ public class AddProductsToCartTest extends BaseTest {
         userLogin("standard_user", "secret_sauce");
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCanAddProductToCart() {
         inventoryPage.clickOnProduct("Sauce Labs Bike Light");
         inventoryPage.clickOnAddToCartButton();
@@ -22,7 +22,7 @@ public class AddProductsToCartTest extends BaseTest {
         Assert.assertEquals(sidebarPage.getShoppingCartText(), "1");
     }
 
-    @Test
+    @Test(priority = 20)
     public void userCanAddMoreProductsToCart() throws InterruptedException {
         inventoryPage.clickOnProduct("Sauce Labs Backpack");
         inventoryPage.clickOnAddToCartButton();

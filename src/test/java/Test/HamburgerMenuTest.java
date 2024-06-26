@@ -17,7 +17,7 @@ public class HamburgerMenuTest extends BaseTest {
         userLogin("standard_user", "secret_sauce");
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCanSuccessfullyLogOut() {
         sidebarPage.clickOnHamburgerMenu();
         waitForAllElementsVisibility(sidebarPage.hamburgerMenuItems);
@@ -28,7 +28,7 @@ public class HamburgerMenuTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(priority = 20)
     public void userCanClickOnAboutButton() {
         sidebarPage.clickOnHamburgerMenu();
         waitForAllElementsVisibility(sidebarPage.hamburgerMenuItems);
@@ -37,7 +37,7 @@ public class HamburgerMenuTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), "https://saucelabs.com/");
     }
 
-    @Test
+    @Test(priority = 30)
     public void userCanResetAppState() {
         inventoryPage.clickOnProduct("Sauce Labs Backpack");
         inventoryPage.clickOnAddToCartButton();
@@ -50,7 +50,7 @@ public class HamburgerMenuTest extends BaseTest {
         Assert.assertEquals(sidebarPage.getShoppingCartText(), "");
     }
 
-    @Test
+    @Test(priority = 40)
     public void userCanGoToAllItemsPage() {
         inventoryPage.clickOnProduct("Sauce Labs Backpack");
         inventoryPage.clickOnAddToCartButton();

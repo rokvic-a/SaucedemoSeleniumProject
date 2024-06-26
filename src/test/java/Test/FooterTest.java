@@ -14,7 +14,7 @@ public class FooterTest extends BaseTest {
         userLogin("standard_user", "secret_sauce");
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCanClickTwitterIcon() {
         footerPage.clickOnTwitterIcon();
         switchToNewWindow();
@@ -22,7 +22,7 @@ public class FooterTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), "https://x.com/saucelabs");
     }
 
-    @Test
+    @Test(priority = 20)
     public void userCanClickFacebookIcon() {
         footerPage.clickOnFacebookIcon();
         switchToNewWindow();
@@ -30,7 +30,7 @@ public class FooterTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/saucelabs");
     }
 
-    @Test
+    @Test(priority = 30)
     public void userCanClickLinkedinIcon() {
         footerPage.clickOnLinkedinIcon();
         switchToNewWindow();

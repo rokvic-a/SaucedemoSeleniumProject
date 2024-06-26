@@ -43,7 +43,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertTrue(checkoutPage.isBackHomeButtonDisplayed());
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCantCheckoutWithoutFirstNameField() {
         sidebarPage.clickOnShoppingCart();
         cartPage.clickOnCheckoutButton();
@@ -52,7 +52,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertEquals(checkoutPage.getErrorText(), "Error: First Name is required");
     }
 
-    @Test
+    @Test(priority = 20)
     public void userCantCheckoutWithoutLastNameField() {
         sidebarPage.clickOnShoppingCart();
         cartPage.clickOnCheckoutButton();
@@ -61,7 +61,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertEquals(checkoutPage.getErrorText(), "Error: Last Name is required");
     }
 
-    @Test
+    @Test(priority = 30)
     public void userCantCheckoutWithoutPostalCodeField() {
         sidebarPage.clickOnShoppingCart();
         cartPage.clickOnCheckoutButton();
@@ -71,7 +71,7 @@ public class CheckoutTest extends BaseTest {
     }
 
 
-    @Test
+    @Test(priority = 40)
     public void userCanCancelShopping() throws InterruptedException {
         inventoryPage.clickOnProduct("Sauce Labs Bolt T-Shirt");
         inventoryPage.clickOnAddToCartButton();
@@ -82,9 +82,7 @@ public class CheckoutTest extends BaseTest {
 
         sidebarPage.clickOnShoppingCart();
         cartPage.clickOnCheckoutButton();
-        checkoutPage.inputFirstName("Pera");
-        checkoutPage.inputLastName("Peric");
-        checkoutPage.inputPostalCode("12345");
+        fillAllCheckoutFields("Pera", "Peric", "1234");
         checkoutPage.clickOnContinueButton();
         checkoutPage.clickOnCancelButton();
 

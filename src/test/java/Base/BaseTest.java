@@ -37,12 +37,11 @@ public class BaseTest {
 
     @AfterClass
     public void tearDown() {
-       // driver.quit();
+       driver.quit();
     }
 
     //----------------------------------------------------
 
-    //Helpers
     public void userLogin(String username, String password) {
         loginPage.insertUsername(username);
         loginPage.insertPassword(password);

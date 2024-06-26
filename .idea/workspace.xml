@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f3958c2-9a26-46f6-9e9e-d6faf11ce632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/FooterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SidebarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/AddProductsToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/CheckoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/FooterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/HamburgerMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/RemoveProductsFromCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/SortingFilterTest.java" afterDir="false" />
+    <list default="true" id="3f3958c2-9a26-46f6-9e9e-d6faf11ce632" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AddProductsToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/AddProductsToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/CheckoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/FooterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/FooterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/HamburgerMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/HamburgerMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/SortingFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/SortingFilterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,48 +40,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AddProductsToCartTest.addMoreProductsToCart.executor": "Run",
-    "TestNG.AddProductsToCartTest.addProductInCart.executor": "Run",
-    "TestNG.AddProductsToCartTest.addProductToCart.executor": "Run",
-    "TestNG.AddProductsToCartTest.executor": "Run",
-    "TestNG.AddProductsToCartTest.userCanAddMoreProductsToCart.executor": "Run",
-    "TestNG.AddProductsToCartTest.userCanAddProductToCart.executor": "Run",
-    "TestNG.CheckoutTest.cancelShopping.executor": "Run",
-    "TestNG.CheckoutTest.checkoutWithAddedItems.executor": "Run",
-    "TestNG.CheckoutTest.checkoutWithoutAnyItems.executor": "Run",
-    "TestNG.CheckoutTest.executor": "Run",
-    "TestNG.CheckoutTest.userCanCancelShopping.executor": "Run",
-    "TestNG.CheckoutTest.userCanCheckoutWithAddedItems.executor": "Run",
-    "TestNG.CheckoutTest.userCantCheckoutWithoutFirstNameField.executor": "Run",
-    "TestNG.CheckoutTest.userCantCheckoutWithoutLastNameField.executor": "Run",
-    "TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField.executor": "Run",
-    "TestNG.FooterTest.executor": "Run",
-    "TestNG.FooterTest.facebookIcontest.executor": "Run",
-    "TestNG.FooterTest.linkedinIconTest.executor": "Run",
-    "TestNG.FooterTest.twitterIconTest.executor": "Run",
-    "TestNG.HamburgerMenuTest.userCanClickOnAboutButton.executor": "Run",
-    "TestNG.HamburgerMenuTest.userCanGoToAllItemsPage.executor": "Run",
-    "TestNG.HamburgerMenuTest.userCanResetAppState.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.LoginTest.successfulLogIn.executor": "Run",
-    "TestNG.LoginTest.successfulLogInWithValidCredentials.executor": "Run",
-    "TestNG.LoginTest.unsuccessfulLogInEmptyFields.executor": "Run",
-    "TestNG.LoginTest.unsuccessfulLogInWithInvalidUsername.executor": "Run",
-    "TestNG.LoginTest.userCanSuccessfullyLogInWithValidCredentials.executor": "Run",
-    "TestNG.LogoutTest.successfulLogOut.executor": "Run",
-    "TestNG.RemoveProductsFromCartTest.removeProductFromCart.executor": "Run",
-    "TestNG.SortingFilterTest.userCanSortItemsAToZ.executor": "Run",
-    "TestNG.SortingFilterTest.userCanSortItemsPriceHighToLow.executor": "Run",
-    "TestNG.SortingFilterTest.userCanSortItemsPriceLowToHigh.executor": "Run",
-    "TestNG.SortingFilterTest.userCanSortItemsZToA.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AddProductsToCartTest.addMoreProductsToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductsToCartTest.addProductInCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductsToCartTest.addProductToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductsToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductsToCartTest.userCanAddMoreProductsToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddProductsToCartTest.userCanAddProductToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.cancelShopping.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.checkoutWithAddedItems.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.checkoutWithoutAnyItems.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.userCanCancelShopping.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.userCanCheckoutWithAddedItems.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.userCantCheckoutWithoutFirstNameField.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.userCantCheckoutWithoutLastNameField.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FooterTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FooterTest.facebookIcontest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FooterTest.linkedinIconTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FooterTest.twitterIconTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HamburgerMenuTest.userCanClickOnAboutButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HamburgerMenuTest.userCanGoToAllItemsPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HamburgerMenuTest.userCanResetAppState.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.successfulLogIn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.successfulLogInWithValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.unsuccessfulLogInEmptyFields.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.unsuccessfulLogInWithInvalidUsername.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.userCanSuccessfullyLogInWithValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogoutTest.successfulLogOut.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RemoveProductsFromCartTest.removeProductFromCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortingFilterTest.userCanSortItemsAToZ.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortingFilterTest.userCanSortItemsPriceHighToLow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortingFilterTest.userCanSortItemsPriceLowToHigh.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SortingFilterTest.userCanSortItemsZToA.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.CheckoutTest.userCantCheckoutWithoutPostalCodeField">
     <configuration name="CheckoutTest.userCanCheckoutWithAddedItems" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalSeleniumProjectSaucedemo" />
@@ -205,6 +192,30 @@
       <option name="presentableId" value="Default" />
       <updated>1718535045913</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1718897591370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718897591370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

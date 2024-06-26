@@ -14,7 +14,7 @@ public class SortingFilterTest extends BaseTest {
         userLogin("standard_user", "secret_sauce");
     }
 
-    @Test
+    @Test(priority = 10)
     public void userCanSortItemsAToZ() {
         inventoryPage.selectSortingFilterFromAToZ();
 
@@ -22,7 +22,7 @@ public class SortingFilterTest extends BaseTest {
         Assert.assertEquals(selectedOption, "Name (A to Z)");
     }
 
-    @Test
+    @Test(priority = 20)
     public void userCanSortItemsZToA() {
         inventoryPage.selectSortingFilterFromZToA();
 
@@ -31,7 +31,7 @@ public class SortingFilterTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(priority = 30)
     public void userCanSortItemsPriceLowToHigh() {
         inventoryPage.selectSortingFilterPriceLowToHigh();
 
@@ -39,7 +39,7 @@ public class SortingFilterTest extends BaseTest {
         Assert.assertEquals(selectedOption, "Price (low to high)");
     }
 
-    @Test
+    @Test(priority = 40)
     public void userCanSortItemsPriceHighToLow() {
         inventoryPage.selectSortingFilterPriceHighToLow();
 
